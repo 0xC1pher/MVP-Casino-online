@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+# funcionalidades faltantes
+casino-microservices/
+├── docker/                     # Configuraciones de Docker
+├── k8s/                       # Configuraciones de Kubernetes
+├── shared/                    # Código compartido entre servicios
+└── docs/                      # Documentación del proyecto
+services/[service-name]/
+├── src/
+│   ├── config/               # Configuraciones
+│   ├── tests/               # Pruebas unitarias e integración
+│   └── dto/                 # Objetos de transferencia de datos
+├── Dockerfile
+└── README.md
+
+Funcionalidades Críticas Faltantes:
+1. Sistema de logging centralizado
+Monitoreo y métricas
+Circuit breakers para resiliencia
+Configuración de caché distribuida
+Sistema de mensajería entre servicios
+Manejo de errores consistente
+Documentación de API (Swagger/OpenAPI)
+Scripts de CI/CD
